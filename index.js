@@ -27,8 +27,8 @@ function generateRandomCharacters() {
 }
 
 // Add event listeners for both output elements
-document.getElementById('output1_el').addEventListener('click', copyToClipboard);
-document.getElementById('output2_el').addEventListener('click', copyToClipboard);
+output1El.addEventListener('click', copyToClipboard);
+output2El.addEventListener('click', copyToClipboard);
 
 function copyToClipboard(event) {
     // Get the text content of the clicked element
@@ -37,7 +37,7 @@ function copyToClipboard(event) {
     try {
         navigator.clipboard.writeText(content);
         
-        // Optional: Add visual feedback
+        // Add visual feedback
         const originalText = event.target.textContent;
         event.target.textContent = 'Copied!';
         
