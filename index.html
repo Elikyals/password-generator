@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1>Generate a <br><span>random password</span></h1>
+            <p id="note">Never use an insecure password again.</p>
+            <div id="pwd-len">
+                <label for="password_length">Password Length (15-64)</label>
+                <input type="number" id="password_length" name="password_length"  min="15" max="64" value="16"/>
+            </div>
+            <button onclick="generateRandomCharacters()">Generate passwords</button>
+            <div id="hline"></div>
+            <p id="output1_el" class="output-section"></p>
+            <p id="output2_el" class="output-section"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

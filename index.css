@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#main {
+    margin-top: 115px;
+    margin-left: 52px;
+}
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h1 span {
+    color: #10B981;
+}
+
+#note {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 51px;
+}
+
+button {
+    background-color: #10B981;
+    border: none;
+    padding: 12px 16px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+#hline {
+    border-bottom: 1px solid #2F3E53;
+    margin-bottom: 35px;
+    width: 446;
+}
+
+.output-section {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    display: inline-grid;
+    border-radius: 6px;
+    margin-right: 24px;
+    color: #55F991;
+    text-align: center;
+    align-items: center;
+}
+
+#pwd-len {
+    margin-bottom: 10px;
+    font-weight: lighter;
+    /* border: 2px solid; */
+}
+#pwd-len label {
+    /* border: 2px solid; */
+    margin-right: 24px;
+}
+
+#password_length {
+    border: none;
+    background-color: #273549;
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.output-section {
+    cursor: pointer;
+    user-select: all;
+}
+
+.output-section:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
