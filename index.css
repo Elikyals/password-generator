@@ -61,10 +61,8 @@ button {
 #pwd-len {
     margin-bottom: 10px;
     font-weight: lighter;
-    /* border: 2px solid; */
 }
 #pwd-len label {
-    /* border: 2px solid; */
     margin-right: 24px;
 }
 
