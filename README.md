@@ -51,7 +51,7 @@ git clone https://github.com/yourusername/password-generator.git
 
 ## Screenshots
 
-screenshots\demo.gif
+![Password Generator Gif](screenshots\demo.gif)
 
 ## Learn More
 
