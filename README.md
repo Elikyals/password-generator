@@ -44,7 +44,7 @@ The generator includes:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/password-generator.git
+git clone https://github.com/Elikyals/password-generator.git
 ```
 
 2. Open `index.html` in your browser
